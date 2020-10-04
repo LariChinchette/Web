@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+
+/*CSS PARA DIVS*/
+div.menu{                  /*Header que anda jungo*/
+    position: fixed;
+    width: 100vw;
+    background-color: darkgray;
+}
+
+div.principal{                  /*Corpo Principal*/
+    position: static;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+/* CSS TABLES */
+table, td{
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    text-align: center;       /*Texto padrão*/
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap:break-word;
+    color: whitesmoke; 
+    width: 100vw;
+  }
+
+th{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;       /*Texto padrão*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    word-wrap:break-word;
+    color: whitesmoke; 
+    font-size: large;
+    width: 100vw;
+}
+
+/*CSS TEXTO*/
+h1{
+    text-align: center;       /*Títulos*/
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:black;
+}
+h2{
+          /*Subtítulo*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:black;
+    color: lightseagreen;
+    margin-left: 20vw;
+}
+p{
+    text-align: center;       /*Texto padrão*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+}
+a{
+    text-align: right;       /*link*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+img{
+    text-align: center;
+}
