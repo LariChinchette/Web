@@ -1,8 +1,11 @@
-function GuessLetter(ChosenLetter)
+let ableToPlay= true;
+
+function guessLetter(ChosenLetter)
 {
     if(ableToPlay)
     {
     let CorrectGuesses = 0;
+    let letter=['c','o','l','h','e','r'];
 
         for(i = 0; i < letter.lenght; i++)
         {
@@ -10,17 +13,17 @@ function GuessLetter(ChosenLetter)
             {
                 CorrectGuesses += 1;
 
-                CorrectGuess(ChosenLetter, i);
+                correctGuess(ChosenLetter, i);
             }
         }
 
         if (CorrectGuesses == 6)
         {
-            Victory();
+            victory();
         }
     }
 }
-function Wrong()
+function wrong()
 {
     let HangmanImage = document.getElementById("enforcado");
     HangmanImage.src = picture;
@@ -44,18 +47,20 @@ function Wrong()
 
     if(WrongGuesses == 6)
     {
-        GameOver();
+        gameOver();
     }
 }
 
-function GameOver()
+
+
+function gameOver()
 {
     ableToPlay = false
 
     alert("Game Over")
 }
 
-function Victory()
+function victory()
 {
     ableToPlay = false
 
