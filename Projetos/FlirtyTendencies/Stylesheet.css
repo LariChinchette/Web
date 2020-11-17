@@ -4,13 +4,14 @@
  /* BOTÕES ANIMADITOS */
 .button {
     border-radius: 4px;
-    background-color: #f4511e;
     border: none;
     color: #FFFFFF;
+    font-weight: bolder;
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
+    font-stretch: ultra-condensed;
     padding: 20px;
-    width: 200px;
+    width: 85%;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -58,6 +59,18 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
   }
+
+/* DIVS FODAS */
+
+div.MenuBotões{
+  font-size: large;
+}
+div.header{
+
+}
+div.bottom{
+  
+}
   
 /*CSS TEXTO*/
 h1{
@@ -73,15 +86,17 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:black;
-    color: lightseagreen;
+    -webkit-text-stroke-color:white;
+    color: black;
 }
 
 h4{
     /*Subtítulo*/
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
-color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    -webkit-text-stroke-color:white;
+    color: black;
 }
 
 p{
@@ -89,6 +104,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
+    font-style: normal;
     font-size: large;
 }
 a{
