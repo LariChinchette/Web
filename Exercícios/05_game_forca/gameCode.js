@@ -51,8 +51,6 @@ function wrong()
     }
 }
 
-
-
 function gameOver()
 {
     ableToPlay = false

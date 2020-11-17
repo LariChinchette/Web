@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+ /* BOTÕES ANIMADITOS */
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* GRIDIZINHA */
+.column {
+    float: left;
+    width: 33%;
+    text-align: center;       /*Títulos*/
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+.row {
+    float: left;
+    height: 33%;
+    text-align: center;       /*Títulos*/
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+/*CSS TEXTO*/
+h1{
+    text-align: center;       /*Títulos*/
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:black;
+}
+h2{
+          /*Subtítulo*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:black;
+    color: lightseagreen;
+}
+
+h4{
+    /*Subtítulo*/
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: lightseagreen;
+}
+
+p{
+    text-align: center;       /*Texto padrão*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+}
+a{
+    text-align: right;       /*link*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+img{
+    text-align: center;
+}
