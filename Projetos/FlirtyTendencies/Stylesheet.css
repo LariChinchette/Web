@@ -34,7 +34,7 @@
   }
   
   .button:hover span {
-    padding-right: 25px;
+    padding-right: 20px;
   }
   
   .button:hover span:after {
@@ -46,6 +46,7 @@
 .column {
     float: left;
     width: 33%;
+    height: 33%;
     text-align: center;       /*Títulos*/
     color: darkcyan;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,29 +63,44 @@
 
 /* DIVS FODAS */
 
-div.MenuBotões{
-  font-size: large;
+div.menuBotoes{
+  width: 100%;
+  height: 50%;
+  border: 1px solid black;
 }
 div.header{
-
+  float: left;
+  width: 100%;
+  height: 30%;
+  background-color: lightgray;
 }
 div.bottom{
-  
+  float: left;
+  width: 100%;
+  height: 20%;
+  background-color: lightgray;
+}
+
+div.cenario{
+  width: 100%;
+  padding-top: 60%;
 }
   
 /*CSS TEXTO*/
 h1{
-    text-align: center;       /*Títulos*/
-    color: darkcyan;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 300%;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color:white;
+  color: black;
 }
 h2{
           /*Subtítulo*/
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:white;
     color: black;
